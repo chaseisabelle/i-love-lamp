@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+  website:
+    image: website/latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/website
+      - ./log:/var/log/apache2
+    environment:
+      - API_TOKEN=xxxx
+    tty: true
