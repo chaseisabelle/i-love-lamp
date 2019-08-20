@@ -1,6 +1,6 @@
 # i love l.a.m.p.
 
-** website starter kit
+**website starter kit**
 ---
 
 **image includes**
@@ -8,6 +8,7 @@
 - php 7.3
 - apache 2
 - composer 
+- mysql *coming soon*
 - and maybe some other junk
 
 **also included**
