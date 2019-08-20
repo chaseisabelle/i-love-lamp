@@ -1,4 +1,6 @@
-# website starter kit
+# i love l.a.m.p.
+
+** website starter kit
 ---
 
 **image includes**
