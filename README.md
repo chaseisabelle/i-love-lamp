@@ -1,5 +1,7 @@
 # i love l.a.m.p.
 
+![brick loves lamp](https://media2.giphy.com/media/ikRL6ISWiznTa/giphy.gif)
+
 **website starter kit**
 ---
 
