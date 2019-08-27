@@ -11,3 +11,11 @@ services:
     environment:
       - API_TOKEN=xxxx
     tty: true
+  mysql:
+    image: mysql/mysql-server:8.0
+    volumes:
+      - ./data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_HOST=%

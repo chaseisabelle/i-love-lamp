@@ -15,9 +15,11 @@ up:
 rmi:
 	make rm
 	docker rmi -f website/latest
+	docker rmi -f mysql/mysql-server
 
 build:
 	docker build -t website/latest .
+	docker build -t mysql/mysql-server .
 
 rebuild:
 	make rmi
