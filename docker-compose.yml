@@ -9,13 +9,16 @@ services:
       - ./:/var/website
       - ./log:/var/log/apache2
     environment:
-      - API_TOKEN=xxxx
+      API_TOKEN: 'xxxx'
     tty: true
   mysql:
-    image: mysql/mysql-server:8.0
-    volumes:
-      - ./data:/var/lib/mysql
+    image: mysql/mysql-server:5.7
+    # for whatever reason this mucks up the root password
+    # will need to figure it out
+    #volumes:
+    #  - ./data:/var/lib/mysql
     ports:
       - 3306:3306
     environment:
-      - MYSQL_ROOT_HOST=%
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_ROOT_PASSWORD: 'root'
