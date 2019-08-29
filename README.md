@@ -10,7 +10,7 @@
 - php 7.3
 - apache 2
 - composer 
-- mysql *coming soon*
+- mysql 5.7
 - and maybe some other junk
 
 **also included**
