@@ -47,8 +47,8 @@ COPY 000-default.conf /etc/apache2/sites-enabled/000-default.conf
 # install mysql
 ################
 # NOTHING! for multiple reasons ive decided it's more practical
-# to have mysql run in it's own container, and i will link the repo
-# once i have it working
+# to have mysql run in it's own container, using some fun copy-pasta
+# from the interwebz
 # - merci beaucoup!
 
 # dumbass terminal
